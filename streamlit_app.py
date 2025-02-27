@@ -2,6 +2,7 @@
 import streamlit as st
 from snowflake.snowpark.functions import col
 import requests
+import pandas as pd
 
 # adding streamlit connect as per lesson 8 to move from SiS to SniS
 cnx = st.connection("snowflake")
